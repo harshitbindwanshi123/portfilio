@@ -1,0 +1,131 @@
+body { 
+
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background: rgb(39, 44, 44);
+  } 
+  h1 {
+    color: #eae6e6;
+    text-align: center;
+    margin: 3em 0;
+    font-size: 3em;
+  }
+  footer {
+    height: 50%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #eedddd;
+    background: #121315;
+  }
+  footer ul {
+    list-style: none;
+  }
+  footer p{
+    color: #fff;
+    max-width: 25em;
+    font-size: 0.9em;
+     line-height: 23px; 
+  
+  }
+  footer a {
+    color: #de6767;
+    text-decoration: none;
+  }
+  footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2em;
+  
+  }
+  .footer .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2em; 
+    background-color: #121315;
+    
+  }
+  .brand {
+    display: block;
+    font-size: 1.8em;
+    font-weight: 600;
+    margin-bottom: 1em;
+    margin-left: 85px;
+  }
+  .media-icons li,
+  .services-icons li {
+    display: inline-block;
+    margin: 0.5em 0.5em 0.5em 0;
+  }
+  .media-icons a {
+    font-size: 1.1em;
+    width: 2em;
+    height: 2em;
+    border: 1px #fff solid;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+  }
+  .media-icons a:hover {
+    background: #fff;
+    color: #111;
+  }
+  .services-icons a {
+    font-size: 1.6em;
+  }
+  .services-icons a:hover {
+    color: #94fbab;
+  }
+  .footer-bottom {
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid rgba(138, 208, 153, 0.36);
+     padding: 2em; 
+  }
+  .footer .menu {
+    margin-bottom: 1em;
+  }
+  .footer .menu li {
+    display: inline-block;
+    margin: 0 0.7em 0.7em 0;
+    text-align: center;
+  }
+  .footer .menu a {
+    transition: 0.3s;
+    font-weight: 600;
+  }
+  .footer .menu a:hover {
+    color: #94fbab;
+  }
+  .input-wrapfooter {
+    margin: 1em 0;
+    display: flex;
+  }
+  .input-wrapfooter input {
+    padding: 0.5em;
+    border: none;
+    background: #20232a;
+    color: #ccc;
+  }
+  .input-wrapfooter input:focus {
+    outline: none;
+  }
+  .input-wrapfooter button {
+    padding: 0.8em;
+    background: #94fbab;
+    border: none;
+    color: #217634;
+    transition: 0.3s;
+  }
+  .input-wrap button:hover {
+    background: #fff;
+    color: #111;
+  }
+  /* == responsive == */
+  @media screen and (max-width: 900px) {
+    .footer .container {
+      flex-direction: column;
+    }
+  }

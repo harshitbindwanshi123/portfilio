@@ -1,0 +1,90 @@
+/* .rishu
+{
+  color: rgb(255, 255, 255);
+  width: 300px;
+  height: 300px;
+  border: 2ch dashed rgb(209, 181, 181);
+  margin: 100px;
+  background-color: rgb(16, 59, 100);
+  font-size: 32px;
+  font-weight: 700;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+body{
+  padding: 50px;
+}
+
+.text
+{
+   z-index: 5;
+}
+.flower
+{
+ position: absolute;
+ z-index: 1;
+ top: 160px;
+ 
+}
+
+.button
+{
+margin: 100px;
+width: 200px;
+height: 50px;
+font-size: 26px;
+cursor: pointer;
+border: none;
+background-color: rgb(61, 88, 208);
+color: white;
+border-radius: 7px;
+transition: 2s ;
+}
+
+.button:hover
+{
+  background-color: rgb(61, 42, 165);
+  color: rgb(255, 255, 255);
+ transform: scale(1.1);
+} */
+
+/* .card_main
+{
+  height: 400px;
+  width: 300px;
+  background-color: rgba(187, 243, 224, 0.682);
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.all_cards
+{
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+.imag
+{
+position: absolute;
+left: 0;
+top: 0;
+height: 200px;
+width: 300px;
+}
+
+.title
+{
+  margin-top: 50px;
+  font-size: 20px;
+  font-weight: bold;
+ 
+} */

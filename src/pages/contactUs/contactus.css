@@ -1,0 +1,126 @@
+ .home_contact{
+    height: 70.5vh;
+        display: flex;
+        background-size:cover ;
+        
+        background-color: aqua;
+    }
+    .up_contact{
+        height:110px;
+        background-color: aqua;
+        justify-content:space-between;
+        align-items: center;
+        
+    
+    }  
+    
+    .contact_with_us_text
+    { 
+        /* color: red; */
+         padding-top: 10px;
+        padding-left: 70px;
+        font-size: 42px;
+        font-weight:900 ;
+        
+      
+    } 
+     .up_contact p{
+        margin-left: 70px;
+    }
+     
+    
+    
+    .left_contact{
+        background-color: rgb(254, 253, 255);
+        height: 65.0vh;   
+        margin-left: 5%;
+        width: 50%;
+    
+    }
+    .right_contact{
+        background-color: rgb(8, 4, 245);
+        height: 65.0vh;
+        width: 40%;
+        margin-right: 5%;
+    }
+    h3{
+        margin-left: 50px;
+    }
+    .input_row{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+         
+        margin-right: 100px;
+    }
+    .input_row .input_group{
+        flex-basis: 45%;
+    }
+    .left_contact input{
+        width: 100%;
+        border: none;
+        border-bottom: 1px solid #ccc;
+        outline: none;
+        padding-bottom: 5px;
+        margin-left: 50px;
+        
+        
+    } 
+    textarea{
+        width: 90%;
+        border: 1px solid #ccc;
+        outline: none;
+        padding: 10px;
+        box-sizing: border-box;
+        margin-left: 50px;
+        margin-right: 90%;
+    }
+    label{
+         margin-bottom: 6px; 
+        display: block;
+        margin-left: 50px;
+    }
+     .button_contact {
+        background: #1c00b5;
+        width: 100px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        color: white;
+        height: 35px;
+        border-radius: 30px;
+        margin-top: 20px;
+        margin-left: 50px;
+        box-shadow: 0px 5px 15px 0px rgba(28,0,181,0,3);
+    
+    }  
+    .left_contact h3{
+        font-weight: 600;
+        margin-bottom: 30px;
+         color: #1c00b5; 
+         padding-top: 20px;
+    }
+    .right_contact h3{
+        font-weight: 600;
+        margin-bottom: 30px;
+        color: #ccc;
+        padding-top: 20px;
+        
+    
+    }
+    tr td:first-child{
+        padding-right: 20px;
+        display: flex;
+        
+    
+    }
+    tr td{
+        padding-top: 20px;
+        color: #ccc;
+    
+    }
+    .right_contact  td{
+        margin-left: 50px;
+    
+        
+    } 

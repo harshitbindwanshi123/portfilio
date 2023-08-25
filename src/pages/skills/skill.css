@@ -1,0 +1,313 @@
+.up_skill
+{
+    height: 100px;
+    background-color: aquamarine; 
+    /* display:flex; */
+    justify-content: space-between;
+    align-items: center; 
+}
+.home2_skill
+{
+    height: 75.0vh;
+     /* background-color: blue; */
+    display: flex;
+    /* background-image: url("/src/images/dask1.jpg"); */
+    background-size: cover;
+      background-color: rgb(66, 213, 213);  
+}
+
+ .left_skill
+{
+    width: 50%;
+    height:85.5vh;
+    
+     /* position: relative;  */
+    
+
+} 
+.right_skill
+{
+    width: 50%;
+    height: 85.5vh;
+    /* background-color: rgb(245, 247, 245); */
+      
+    
+}
+.my_skill
+{
+    margin-left: 100px;
+    
+}
+.html1
+{
+    height: 30px;
+    width: 700px;
+    background-color:white;
+    margin-top: 70px;
+    margin-right:px;
+    border-radius: 10px solid rgb(247, 244, 244);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    ;
+}
+.html2
+{
+    height: 30px;
+    width: 600px;
+    background-color: rgb(242, 120, 12);
+    animation: progress 2s ease-in-out forwards;
+    
+}
+ 
+
+
+@keyframes progress
+{
+0%
+{
+    width: 100px;
+}
+500%
+{
+    width:600px;
+}
+}
+.html3
+{
+height: 30px;
+width: 100px;
+background-color: brown;
+color: white;
+align-items: center;
+justify-content: center;
+display: flex;
+
+}
+.css1
+{
+    height: 30px;
+    width: 700px;
+    background-color: white;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    
+}
+.css2
+{
+    height: 30px;
+    width: 500px;
+    background-color: rgb(87, 126, 241);
+    animation: progress 2s ease-in-out forwards;
+}
+    /* @keyframes progress
+{
+0%
+{
+    width: 200px;
+}
+500%
+{
+    width:500px;
+}
+} */
+
+.css3
+{
+height: 30px;
+width: 100px;
+background-color: rgb(41, 111, 240);color: white;
+align-items: center;
+justify-content: center;
+display: flex;
+
+}
+.jquery1
+{
+    height: 30px;
+    width: 700px;
+    background-color: white;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+}
+.jquery2
+{
+    height: 30px;
+    width: 450px;
+    background-color: rgb(90, 87, 164);
+    animation: progress 2s ease-in-out forwards;
+}
+.jquery3
+{
+height: 30px;
+width: 100px;
+background-color: rgb(84, 55, 55);color: white;
+align-items: center;
+justify-content: center;
+display: flex;
+
+}
+.php1
+{
+    height: 30px;
+    width: 700px;
+    background-color: white;
+    margin-top: 20px;box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+}
+.php2
+{
+    height: 30px;
+    width: 400px;
+    background-color: rgb(53, 59, 227);
+    animation: progress 2s ease-in-out forwards;
+}
+.php3
+{
+height: 30px;
+width: 100px;
+background-color: rgb(108, 94, 241);color: white;
+align-items: center;
+justify-content: center;
+display: flex;
+
+}
+.wordpress1
+{
+    height: 30px;
+    width: 700px;
+    background-color: white;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+}
+.wordpress2
+{
+    height: 30px;
+    width: 650px;
+    background-color: rgb(63, 57, 50);
+    animation: progress 2s ease-in-out forwards;
+}
+.wordpress3
+{
+height: 30px;
+width: 100px;
+background-color: rgb(66, 25, 25);color: white;
+align-items: center;
+justify-content: center;
+display: flex;
+
+}
+.seo1
+{
+    height: 30px;
+    width: 700px;
+    background-color: white;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+}
+.seo2
+{
+    height: 30px;
+    width: 700px;
+    background-color: rgb(66, 242, 12);
+    animation: progress 2s ease-in-out forwards;
+}
+.seo3
+{
+height: 30px;
+width: 100px;
+background-color: rgb(8, 107, 34);color: white;
+align-items: center;
+justify-content: center;
+display: flex;
+
+}
+.photoshop1
+{
+    height: 30px;
+    width: 700px;
+    background-color: rgb(255, 252, 252);
+    margin-top: 20px;box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+
+}
+.photoshop2
+{
+    height: 30px;
+    width: 600px;
+    background-color: rgb(12, 142, 242);
+    animation: progress 2s ease-in-out forwards;
+
+}
+.photoshop3
+{
+height: 30px;
+width: 100px;
+background-color: rgb(12, 71, 221);color: white;
+align-items: center;
+justify-content: center;
+display: flex;
+
+}
+
+.my_skill{
+    font-size: 32px;   
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    margin-left: 650px;
+    ;
+    
+
+}
+.i_like{
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.design{
+    font-size: 20px;
+    margin-top: 80px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-left: 150px;
+}
+.technology{
+    font-size: 20px;
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-left: 150px;
+}
+.always{
+    font-size: 20px;
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-left: 150px;
+}
+.clean
+{
+    margin-left:150px ;
+    margin-right: 100px;
+    margin-top: 10px;
+}
+.combined
+{
+    margin-left:150px;
+    margin-right: 10px;
+    margin-top: 10px;
+
+}
+.responsive
+{
+    margin-left:150px;
+    margin-right: 120px;
+    margin-top: 10px;
+}
+.i_like{
+    margin-left: 500px;
+}
